@@ -1,0 +1,221 @@
+{
+  "title": "A4 Cheatsheet 中英问答示例",
+  "sections": {
+    "S1": "学习与整理 Study",
+    "S2": "数据与统计 Data",
+    "S3": "公式与逻辑 Formula",
+    "S4": "文档与检查 Review"
+  },
+  "core_terms": [
+    "Active recall",
+    "Spaced practice",
+    "Correlation",
+    "Content preservation"
+  ],
+  "logic_terms": [
+    "AND",
+    "OR",
+    "does not",
+    "must",
+    "only"
+  ],
+  "case_terms": [
+    "For 2, 4 and 6"
+  ],
+  "formulas": {
+    "square": {
+      "runs": [
+        {
+          "text": "A = a"
+        },
+        {
+          "text": "2",
+          "superscript": true
+        }
+      ],
+      "plain_text": "A = a2"
+    },
+    "subscript": {
+      "runs": [
+        {
+          "text": "x"
+        },
+        {
+          "text": "1",
+          "subscript": true
+        }
+      ],
+      "plain_text": "x1"
+    }
+  },
+  "items": [
+    {
+      "id": "S1-01",
+      "section": "S1",
+      "question": "主动回忆是什么？",
+      "answer": "Active recall means answering from memory before checking the source.",
+      "priority": "core"
+    },
+    {
+      "id": "S1-02",
+      "section": "S1",
+      "question": "间隔复习如何安排？",
+      "answer": "Spaced practice separates review sessions over time. Adjust intervals using actual recall results.",
+      "priority": "normal"
+    },
+    {
+      "id": "S1-03",
+      "section": "S1",
+      "question": "如何区分看懂与会做？",
+      "answer": "Understanding an explanation is different from solving an unfamiliar question independently.",
+      "priority": "normal"
+    },
+    {
+      "id": "S1-04",
+      "section": "S1",
+      "question": "一道计算题应记录什么？",
+      "answer": "Record the given values, assumptions, formula, units, intermediate steps and final answer.",
+      "priority": "normal"
+    },
+    {
+      "id": "S1-05",
+      "section": "S1",
+      "question": "错题记录的重点是什么？",
+      "answer": "Identify the cause of the error and write a correction that can be checked with a new example.",
+      "priority": "normal"
+    },
+    {
+      "id": "S1-06",
+      "section": "S1",
+      "question": "如何整理术语？",
+      "answer": "Keep the original term, a concise definition, a Chinese explanation and one relevant example.",
+      "priority": "normal"
+    },
+    {
+      "id": "S2-01",
+      "section": "S2",
+      "question": "均值怎样计算？",
+      "answer": "The arithmetic mean is the sum of observed values divided by their count. For 2, 4 and 6, the mean is 4.",
+      "priority": "core"
+    },
+    {
+      "id": "S2-02",
+      "section": "S2",
+      "question": "中位数怎样计算？",
+      "answer": "Sort the values. Use the middle value for an odd count, or the mean of the two middle values for an even count.",
+      "priority": "normal"
+    },
+    {
+      "id": "S2-03",
+      "section": "S2",
+      "question": "相关关系说明因果吗？",
+      "answer": "Correlation alone does not establish causation. Confounding or reverse causation may explain an association.",
+      "priority": "normal"
+    },
+    {
+      "id": "S2-04",
+      "section": "S2",
+      "question": "样本与总体有什么区别？",
+      "answer": "A sample is the observed subset; the population is the full group the analysis aims to describe.",
+      "priority": "normal"
+    },
+    {
+      "id": "S2-05",
+      "section": "S2",
+      "question": "百分比变化怎样计算？",
+      "answer": "Percentage change is (new value minus old value) divided by the old value, multiplied by 100%. The old value must be nonzero.",
+      "priority": "normal"
+    },
+    {
+      "id": "S2-06",
+      "section": "S2",
+      "question": "为什么保留单位？",
+      "answer": "Units clarify meaning and help detect inconsistent calculations. Convert units before combining quantities.",
+      "priority": "normal"
+    },
+    {
+      "id": "S3-01",
+      "section": "S3",
+      "question": "正方形面积如何表达？",
+      "answer": "For side length a, [[F:square]]. If a = 3 cm, the area is 9 square centimetres.",
+      "priority": "core"
+    },
+    {
+      "id": "S3-02",
+      "section": "S3",
+      "question": "下标可以如何表示？",
+      "answer": "The notation [[F:subscript]] identifies the first observation in a sequence.",
+      "priority": "normal"
+    },
+    {
+      "id": "S3-03",
+      "section": "S3",
+      "question": "AND 与 OR 有何不同？",
+      "answer": "AND requires both statements to be true. Inclusive OR requires at least one statement to be true.",
+      "priority": "normal"
+    },
+    {
+      "id": "S3-04",
+      "section": "S3",
+      "question": "必要条件等于充分条件吗？",
+      "answer": "A necessary condition must hold for the result. A sufficient condition guarantees the result under the stated assumptions.",
+      "priority": "normal"
+    },
+    {
+      "id": "S3-05",
+      "section": "S3",
+      "question": "为什么要写假设？",
+      "answer": "A formula is valid only within its assumptions. State restrictions before applying it to a new situation.",
+      "priority": "normal"
+    },
+    {
+      "id": "S3-06",
+      "section": "S3",
+      "question": "例子可以代替证明吗？",
+      "answer": "One example illustrates a claim. It does not prove a universal claim; one valid counterexample can disprove one.",
+      "priority": "normal"
+    },
+    {
+      "id": "S4-01",
+      "section": "S4",
+      "question": "A4 横向纸张有多大？",
+      "answer": "Landscape A4 measures 297 mm by 210 mm. Check the actual rendered page dimensions.",
+      "priority": "core"
+    },
+    {
+      "id": "S4-02",
+      "section": "S4",
+      "question": "为什么先保留正文？",
+      "answer": "Content preservation keeps definitions, conditions, numbers and examples available for later review.",
+      "priority": "normal"
+    },
+    {
+      "id": "S4-03",
+      "section": "S4",
+      "question": "如何确认没有漏题？",
+      "answer": "Compare stable question IDs, their order and full answers against the reviewed input.",
+      "priority": "normal"
+    },
+    {
+      "id": "S4-04",
+      "section": "S4",
+      "question": "文字核验通过就够了吗？",
+      "answer": "Text checks cannot detect every layout problem. Inspect rendered pages for clipping, missing glyphs and overlap.",
+      "priority": "normal"
+    },
+    {
+      "id": "S4-05",
+      "section": "S4",
+      "question": "页数由什么决定？",
+      "answer": "Page count depends on content, font metrics, line spacing, column count and the rendering environment.",
+      "priority": "normal"
+    },
+    {
+      "id": "S4-06",
+      "section": "S4",
+      "question": "打印前需要检查什么？",
+      "answer": "Check paper size, print scale and duplex orientation. Confirm that the printer supports the selected margins.",
+      "priority": "normal"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "A4 Cheatsheet"
+  short_description: "双面A4多栏问答速查表，完整保留中文正文，红色非粗体标题"
+  icon_large: "./assets/preview.png"
+  default_prompt: "使用 $artifact-template-a4-cheatsheet 把提供的课程材料做成双面 A4 Word，完整保留问答正文并尽量增大字号。"
+policy:
+  allow_implicit_invocation: true
